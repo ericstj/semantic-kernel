@@ -61,7 +61,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="IntegrationTests" />
-    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Planners.Core.UnitTests" />
+    <InternalsVisibleTo Include="IntegrationTests" PublicKey="$(PublicKey)" />
+    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Planners.Core.UnitTests" PublicKey="$(PublicKey)" />
   </ItemGroup>
 </Project>

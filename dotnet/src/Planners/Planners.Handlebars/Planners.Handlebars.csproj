@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Planners.Handlebars.UnitTests" />
+    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Planners.Handlebars.UnitTests" PublicKey="$(PublicKey)" />
   </ItemGroup>
 
   <ItemGroup>

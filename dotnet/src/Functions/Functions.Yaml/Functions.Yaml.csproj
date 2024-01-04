@@ -17,7 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="SemanticKernel.Functions.UnitTests" />
+    <InternalsVisibleTo Include="SemanticKernel.Functions.UnitTests" PublicKey="$(PublicKey)" />
   </ItemGroup>
 
   <ItemGroup>

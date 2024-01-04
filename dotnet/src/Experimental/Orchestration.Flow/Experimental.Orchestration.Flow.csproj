@@ -20,7 +20,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <InternalsVisibleTo Include="SemanticKernel.Experimental.Orchestration.Flow.UnitTests" />
+    <InternalsVisibleTo Include="SemanticKernel.Experimental.Orchestration.Flow.UnitTests" PublicKey="$(PublicKey)" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="YamlDotNet" />

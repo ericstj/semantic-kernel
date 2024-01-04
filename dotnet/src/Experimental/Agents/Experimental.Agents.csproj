@@ -15,7 +15,7 @@
     <Description>Semantic Kernel Agents</Description>
   </PropertyGroup>
   <ItemGroup>
-    <InternalsVisibleTo Include="SemanticKernel.Experimental.Agents.UnitTests" />
+    <InternalsVisibleTo Include="SemanticKernel.Experimental.Agents.UnitTests" PublicKey="$(PublicKey)" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Linq.Async" />
@@ -26,6 +26,6 @@
     <ProjectReference Include="..\..\SemanticKernel.Core\SemanticKernel.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <InternalsVisibleTo Include="SemanticKernel.Experimental.Agents.UnitTests" />
+    <InternalsVisibleTo Include="SemanticKernel.Experimental.Agents.UnitTests" PublicKey="$(PublicKey)" />
   </ItemGroup>
 </Project>

@@ -24,8 +24,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="SemanticKernel.UnitTests" />
-    <InternalsVisibleTo Include="SemanticKernel.Extensions.UnitTests" />
+    <InternalsVisibleTo Include="SemanticKernel.UnitTests" PublicKey="$(PublicKey)" />
+    <InternalsVisibleTo Include="SemanticKernel.Extensions.UnitTests" PublicKey="$(PublicKey)" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,8 +37,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Experimental.Assistants" />
-    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Connectors.OpenAI" />
+    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Experimental.Assistants" PublicKey="$(PublicKey)" />
+    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Connectors.OpenAI" PublicKey="$(PublicKey)" />
   </ItemGroup>
 
 </Project>
